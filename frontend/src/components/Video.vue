@@ -17,6 +17,8 @@
         </v-card-title >
 
         <v-card-text>
+            <String label="VideoUrl" v-model="value.videoUrl" :editMode="editMode"/>
+            <String label="FiieId" v-model="value.fiieId" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>
