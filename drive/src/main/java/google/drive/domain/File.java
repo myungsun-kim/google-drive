@@ -1,6 +1,7 @@
 package google.drive.domain;
 
 import google.drive.domain.FileUploaded;
+import google.drive.domain.FileDeleted;
 import google.drive.DriveApplication;
 import javax.persistence.*;
 import java.util.List;
@@ -47,6 +48,11 @@ public class File  {
 
         FileUploaded fileUploaded = new FileUploaded(this);
         fileUploaded.publishAfterCommit();
+
+
+
+        FileDeleted fileDeleted = new FileDeleted(this);
+        fileDeleted.publishAfterCommit();
 
     }
 
