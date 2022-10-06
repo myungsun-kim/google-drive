@@ -18,7 +18,7 @@
                                 VideoUrl :  {{item.videoUrl }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                FiieId :  {{item.fiieId }}
+                                FileId :  {{item.fileId }}
                             </v-list-item-subtitle>
                         </v-list-item-content>
 

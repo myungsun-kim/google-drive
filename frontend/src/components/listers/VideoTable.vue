@@ -68,7 +68,7 @@
                 [
                     { text: "id", value: "id" },
                     { text: "videoUrl", value: "videoUrl" },
-                    { text: "fiieId", value: "fiieId" },
+                    { text: "fileId", value: "fileId" },
                 ],
             video : [],
             newValue: {},
@@ -87,7 +87,7 @@
 
             this.newValue = {
                 'videoUrl': '',
-                'fiieId': '',
+                'fileId': '',
             }
         },
         methods: {
