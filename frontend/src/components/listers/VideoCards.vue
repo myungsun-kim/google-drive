@@ -69,7 +69,7 @@
             
             me.newValue = {
                 'videoUrl': '',
-                'fileId': '',
+                'fileId': 0,
             }
         },
         methods:{

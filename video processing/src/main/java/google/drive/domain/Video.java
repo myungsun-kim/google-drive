@@ -33,7 +33,7 @@ public class Video  {
     
     
     
-    private String fileId;
+    private Long fileId;
 
     @PostPersist
     public void onPostPersist(){
